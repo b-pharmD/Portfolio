@@ -1,0 +1,129 @@
+*{
+    font-family:Arial, Helvetica, sans-serif;
+}
+
+html, body {
+    margin: 0;
+    padding: 0;
+    background-color: #fcf5e1;
+ }
+
+.header{
+margin: 0px;
+border: 0px;
+background-color: #3BDCC6;
+display: flex;
+justify-content:flex-end;
+align-items: center;
+
+}
+
+h1{
+    padding: 10px;
+    margin-right:10px;
+}
+
+.headerimg{
+    margin-right:auto;
+}
+
+.navbar{
+    display: flex;
+    list-style: none;
+}
+
+.navbar a{
+    text-decoration: none;
+    color:black;
+    padding: 10px;
+    justify-content: center;
+    
+}
+
+
+.headerimg{
+    height: 60px;
+    width: 60px;
+    border-radius: 10px;
+}
+
+.main{
+    display:flex;
+    flex-direction:column;
+    border: 5px #f58442;
+    flex-basis:1;
+}
+
+.mainbox1{
+    border:5px solid #f58442;
+    padding: 10px;
+    border-radius: 10px;
+    height: auto;
+    width: stretch;
+    display: flex;
+    flex-direction:row;
+}
+
+.mainbox1 p{
+    padding-left:5%;
+    padding-right:5%;
+}
+
+.mainbox2{
+    border:5px solid #f58442;
+    border-radius: 10px;
+    height: auto;
+    width: stretch;
+    display: flex;
+    flex-grow: 2;
+    flex-direction: row;
+    flex-wrap:wrap;
+}
+
+.mainbox2 h2{
+    padding-top: 4%;
+    max-width 20%;
+}
+/* code for github text in image
+.mainbox2 p{
+    color: white;
+    font-size: 2.0;
+    position: absolute;
+    top: 75%;
+    left: 50%;
+    
+}
+*/
+.mainbox3{
+    border:5px solid #f58442;
+    border-radius: 10px;
+    height: auto;
+    width: stretch;
+    flex-grow: 1;
+}
+
+.mainbox4{
+    border:5px solid #f58442;
+    border-radius: 10px;
+    height: auto;
+    width: stretch;
+    flex-grow: 1;
+}
+
+.github{
+    max-width: 80%;
+    max-height: auto;
+    padding-left: 5%;
+    padding-top: 5%;
+    padding-bottom: 5%;
+}
+
+.delta{
+    max-width: 48%;
+    height: stretch;
+}
+
+.google{
+    max-width: 48%;
+    height: stretch;
+}
