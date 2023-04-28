@@ -14,3 +14,6 @@ https://unsplash.com/photos/afW1hht0NSs?utm_source=unsplash&utm_medium=referral&
   I also used ideas from the following site:
 
   https://www.joshwcomeau.com/css/interactive-guide-to-flexbox/
+
+  This is located at the following location in my repo:
+  https://github.com/b-pharmD/module-2-homework
