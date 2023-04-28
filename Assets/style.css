@@ -76,7 +76,6 @@ h1{
     height: auto;
     width: stretch;
     display: flex;
-    /*flex-grow: 2;*/
     flex-direction: row;
     flex-wrap:wrap;
     
@@ -127,21 +126,18 @@ h1{
 
 .linkbox .delta {
     max-width: 40%;
-    /* max-height: auto; */
     margin: 2%;
     flex: 1 1 0; 
 }  
 
 .linkbox .google {
     max-width: 40%;
-    /* max-height: auto; */
     margin: 2%;
     flex: 1 1 0;
 }
 
 .linkbox .comingsoon{
     max-width: 40%;
-    /* max-height: auto; */
     margin: 2%;
     flex: 1 1 0;
 }
