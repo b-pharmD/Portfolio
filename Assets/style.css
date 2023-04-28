@@ -65,8 +65,9 @@ h1{
 }
 
 .mainbox1 p{
-    padding-left:5%;
+    padding-left:2%;
     padding-right:5%;
+    max-width: 80%;
 }
 
 .mainbox2{
@@ -75,22 +76,32 @@ h1{
     height: auto;
     width: stretch;
     display: flex;
-    flex-grow: 2;
+    /*flex-grow: 2;*/
     flex-direction: row;
     flex-wrap:wrap;
+    
 }
 
 .mainbox2 h2{
     padding-top: 4%;
-    max-width 20%;
+    padding-left:2%;
+    padding-right:2%;
+    max-width: 30%;
 }
-/* code for github text in image
-.mainbox2 p{
-    color: white;
-    font-size: 2.0;
-    position: absolute;
-    top: 75%;
-    left: 50%;
+
+.mainbox2 div{
+    display:flex;
+    max-width: 60%;
+    justify-content: flex-end;
+}
+
+.mainbox2 div a{
+    display: flex;
+    margin: 0;
+    flex-shrink: 1;
+}
+
+
     
 }
 */
@@ -99,7 +110,49 @@ h1{
     border-radius: 10px;
     height: auto;
     width: stretch;
-    flex-grow: 1;
+    /* flex-grow: 1;
+    flex-shrink: 1; */
+    display:flex;
+    /* flex-direction: row; */
+    flex-wrap: wrap;
+}
+.mainbox3 h2{
+    padding-top: 4%;
+    padding-left: 2%;
+    max-width: 20%;
+    height: 100%;
+    margin-right: 2%;
+}
+
+.linkbox{
+     max-width: 80%;
+   /* max-height: stretch; */
+    display: flex;
+    flex-direction: row; 
+    flex-wrap:wrap;
+    /* flex: 1 1 600px; */
+    /* justify-content: space-between; */
+}
+
+.linkbox .delta {
+    max-width: 40%;
+    /* max-height: auto; */
+    margin: 2%;
+    flex: 1 1 0; 
+}  
+
+.linkbox .google {
+    max-width: 40%;
+    /* max-height: auto; */
+    margin: 2%;
+    flex: 1 1 0;
+}
+
+.linkbox .comingsoon{
+    max-width: 40%;
+    /* max-height: auto; */
+    margin: 2%;
+    flex: 1 1 0;
 }
 
 .mainbox4{
@@ -109,21 +162,28 @@ h1{
     width: stretch;
     flex-grow: 1;
 }
-
-.github{
-    max-width: 80%;
-    max-height: auto;
-    padding-left: 5%;
-    padding-top: 5%;
-    padding-bottom: 5%;
+.mainbox4 h2{
+    padding-top: 4%;
+    max-width: 20%;
 }
 
+.link2{
+    max-width: 50%;
+    max-height: auto;
+    padding: 5%;
+    flex-direction:column;
+}
+
+.link2 p{
+align-content:center;
+}
+/* 
 .delta{
-    max-width: 48%;
+    max-width: 35%;
     height: stretch;
 }
 
 .google{
     max-width: 48%;
-    height: stretch;
-}
+    max-height: auto;
+} */
