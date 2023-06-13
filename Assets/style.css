@@ -70,97 +70,30 @@ h1{
     max-width: 80%;
 }
 
-.mainbox2{
-    border:5px solid #f58442;
-    border-radius: 10px;
-    height: auto;
-    width: stretch;
+.mainbox2 {
     display: flex;
-    flex-direction: row;
-    flex-wrap:wrap;
+    flex-wrap: wrap;
+  }
+  
+
+.application1{
+    /* max-width: 70%; */
+    flex: 1 1 70%;
+}
+
+.application{
+    /* max-width: 35%; */
+    flex: 1 1 40%;
     
 }
 
-.mainbox2 h2{
-    padding-top: 4%;
-    padding-left:2%;
-    padding-right:2%;
-    max-width: 30%;
-}
-
-.mainbox2 div{
-    display:flex;
-    max-width: 60%;
-    justify-content: flex-end;
-}
-
-.mainbox2 div a{
-    display: flex;
-    max-width: 60%;
-    margin: 0;
-    flex-shrink: 1;
-}
-
-
-.mainbox3{
-    border:5px solid #f58442;
-    border-radius: 10px;
+  .project {
+    flex: 1 0 200px; 
+    margin: 15px;
+  }
+  
+  .project img {
+    max-width: 100%;
     height: auto;
-    width: stretch;
-    display:flex;
-    flex-wrap: wrap;
-}
-.mainbox3 h2{
-    padding-top: 4%;
-    padding-left: 2%;
-    max-width: 20%;
-    height: 100%;
-    margin-right: 2%;
-}
-
-.linkbox{
-     max-width: 80%;
-    display: flex;
-    flex-direction: row; 
-    flex-wrap:wrap;
-
-.linkbox .delta {
-    max-width: 40%;
-    margin: 2%;
-    flex: 1 1 0; 
-}  
-
-.linkbox .google {
-    max-width: 40%;
-    margin: 2%;
-    flex: 1 1 0;
-}
-
-.linkbox .comingsoon{
-    max-width: 40%;
-    margin: 2%;
-    flex: 1 1 0;
-}
-
-.mainbox4{
-    border:5px solid #f58442;
-    border-radius: 10px;
-    height: auto;
-    width: stretch;
-    flex-grow: 1;
-}
-.mainbox4 h2{
-    padding-top: 4%;
-    max-width: 20%;
-}
-
-.link2{
-    max-width: 50%;
-    max-height: auto;
-    padding: 5%;
-    flex-direction:column;
-}
-
-.link2 p{
-align-content:center;
-}
+    display: block;
+  }
