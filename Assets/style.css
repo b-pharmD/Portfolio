@@ -73,18 +73,22 @@ h1{
 .mainbox2 {
     display: flex;
     flex-wrap: wrap;
+    justify-content: center;
   }
   
 
 .application1{
     /* max-width: 70%; */
     flex: 1 1 70%;
+    padding: 20px;
+    margin-left: 4%;
 }
 
 .application{
     /* max-width: 35%; */
     flex: 1 1 40%;
-    
+    padding: 20px;
+    margin-left: 4%;
 }
 
   .project {
@@ -97,3 +101,14 @@ h1{
     height: auto;
     display: block;
   }
+
+  
+@media screen and (max-width: 768px) {
+    .mainbox2 {
+        flex-direction: column;
+    }
+    .application {
+        max-width: 60%;
+        
+    }
+}
