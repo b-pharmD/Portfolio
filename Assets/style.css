@@ -57,7 +57,6 @@ h1{
 .mainbox1{
     border:5px solid #f58442;
     padding: 10px;
-    border-radius: 10px;
     height: auto;
     width: stretch;
     display: flex;
@@ -77,31 +76,40 @@ h1{
     
   }
   
-.mainbox2 h2{
+.mainbox2 h2 {
     width: 100%;
+    padding: 10px;
 }
 
 .application1{
     border:5px solid #f58442;  
     flex: 1 1 100%;
     padding: 20px;
-    
 }
 
 .application{
         border:5px solid #f58442;
     flex: 1 1 40%;
-    padding: 20px; }
+    padding: 20px; 
+   }
+    
 
   .project {
-    flex: 1 0 200px; 
-   
+    /* flex: 1 0 200px;  */
+    justify-content: center;
+    display: flex;  
+    flex-direction: column;
   }
   
   .project img {
     max-width: 95%;
     height: auto;
-    
+    align-self: center;    
+  }
+
+  .project p {
+    width: 100%;
+    text-align: center;
   }
 
   
@@ -109,8 +117,9 @@ h1{
     .mainbox2 {
         flex-direction: column;
     }
-    .application {
-        /* max-width: 60%; */
-        
-    }
+    
+    .application .project img {
+        max-width: 60%;
+
+      }
 }
