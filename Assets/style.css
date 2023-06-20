@@ -11,7 +11,7 @@ html, body {
 .header{
 margin: 0px;
 border: 0px;
-background-color: #3BDCC6;
+background-color: #1bae87;
 display: flex;
 justify-content:flex-end;
 align-items: center;
@@ -50,12 +50,10 @@ h1{
 .main{
     display:flex;
     flex-direction:column;
-    border: 5px #f58442;
     flex-basis:1;
 }
 
 .mainbox1{
-    border:5px solid #f58442;
     padding: 10px;
     height: auto;
     width: stretch;
@@ -70,7 +68,6 @@ h1{
 }
 
 .mainbox2 {
-    border:5px solid #f58442;
     display: flex;
     flex-wrap: wrap;
     
@@ -82,15 +79,15 @@ h1{
 }
 
 .application1{
-    border:5px solid #f58442;  
     flex: 1 1 100%;
     padding: 20px;
+    text-decoration: none;
 }
 
 .application{
-        border:5px solid #f58442;
     flex: 1 1 40%;
     padding: 20px; 
+    text-decoration: none;
    }
     
 
@@ -110,8 +107,13 @@ h1{
   .project p {
     width: 100%;
     text-align: center;
+    color: black;
   }
 
+  .mainbox3{
+    
+    background-color: #D47B21;
+  }
   
 @media screen and (max-width: 768px) {
     .mainbox2 {
