@@ -11,7 +11,7 @@ html, body {
 .header{
 margin: 0px;
 border: 0px;
-background-color: #3BDCC6;
+background-color: #1bae87;
 display: flex;
 justify-content:flex-end;
 align-items: center;
@@ -50,14 +50,11 @@ h1{
 .main{
     display:flex;
     flex-direction:column;
-    border: 5px #f58442;
     flex-basis:1;
 }
 
 .mainbox1{
-    border:5px solid #f58442;
     padding: 10px;
-    border-radius: 10px;
     height: auto;
     width: stretch;
     display: flex;
@@ -70,97 +67,62 @@ h1{
     max-width: 80%;
 }
 
-.mainbox2{
-    border:5px solid #f58442;
-    border-radius: 10px;
-    height: auto;
-    width: stretch;
+.mainbox2 {
     display: flex;
-    flex-direction: row;
-    flex-wrap:wrap;
-    
-}
-
-.mainbox2 h2{
-    padding-top: 4%;
-    padding-left:2%;
-    padding-right:2%;
-    max-width: 30%;
-}
-
-.mainbox2 div{
-    display:flex;
-    max-width: 60%;
-    justify-content: flex-end;
-}
-
-.mainbox2 div a{
-    display: flex;
-    max-width: 60%;
-    margin: 0;
-    flex-shrink: 1;
-}
-
-
-.mainbox3{
-    border:5px solid #f58442;
-    border-radius: 10px;
-    height: auto;
-    width: stretch;
-    display:flex;
     flex-wrap: wrap;
-}
-.mainbox3 h2{
-    padding-top: 4%;
-    padding-left: 2%;
-    max-width: 20%;
-    height: 100%;
-    margin-right: 2%;
-}
-
-.linkbox{
-     max-width: 80%;
-    display: flex;
-    flex-direction: row; 
-    flex-wrap:wrap;
-
-.linkbox .delta {
-    max-width: 40%;
-    margin: 2%;
-    flex: 1 1 0; 
-}  
-
-.linkbox .google {
-    max-width: 40%;
-    margin: 2%;
-    flex: 1 1 0;
+    
+  }
+  
+.mainbox2 h2 {
+    width: 100%;
+    padding: 10px;
 }
 
-.linkbox .comingsoon{
-    max-width: 40%;
-    margin: 2%;
-    flex: 1 1 0;
+.application1{
+    flex: 1 1 100%;
+    padding: 20px;
+    text-decoration: none;
 }
 
-.mainbox4{
-    border:5px solid #f58442;
-    border-radius: 10px;
+.application{
+    flex: 1 1 40%;
+    padding: 20px; 
+    text-decoration: none;
+   }
+    
+
+  .project {
+    /* flex: 1 0 200px;  */
+    justify-content: center;
+    display: flex;  
+    flex-direction: column;
+  }
+  
+  .project img {
+    max-width: 95%;
     height: auto;
-    width: stretch;
-    flex-grow: 1;
-}
-.mainbox4 h2{
-    padding-top: 4%;
-    max-width: 20%;
-}
+    align-self: center;    
+  }
 
-.link2{
-    max-width: 50%;
-    max-height: auto;
-    padding: 5%;
-    flex-direction:column;
-}
+  .project p {
+    width: 100%;
+    text-align: center;
+    color: black;
+  }
 
-.link2 p{
-align-content:center;
+  .mainbox3{
+  background-color: #D47B21;
+  display: flex;
+  align-items: center;
+  }
+  
+@media screen and (max-width: 768px) {
+    .mainbox2 {
+        flex-direction: column;
+    }
+    
+    .application .project img {
+        max-width: 60%;
+
+      }
 }
