@@ -1,5 +1,9 @@
 # Portfolio
 
+## Link to Deployed Page
+
+https://b-pharmd.github.io/Portfolio/
+
 ## Description
 I created this webpage to create a portfolio using HTML and CSS. It has an about me section, links to some of my projets, and other links. By building this I was able to learn and practice using HTML and CSS.
 
