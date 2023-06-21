@@ -1,128 +1,131 @@
-*{
-    font-family:Arial, Helvetica, sans-serif;
+/* Sets font for page */
+* {
+    font-family: Arial, Helvetica, sans-serif;
 }
 
-html, body {
+/* Sets background color for page */
+html,
+body {
     margin: 0;
     padding: 0;
     background-color: #fcf5e1;
- }
-
-.header{
-margin: 0px;
-border: 0px;
-background-color: #1bae87;
-display: flex;
-justify-content:flex-end;
-align-items: center;
-
 }
 
-h1{
+/* The folowing setions set the styling for all elements in the header */
+.header {
+    margin: 0px;
+    border: 0px;
+    background-color: #1bae87;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+}
+
+h1 {
     padding: 10px;
-    margin-right:10px;
+    margin-right: 10px;
 }
 
-.headerimg{
-    margin-right:auto;
+.headerimg {
+    margin-right: auto;
 }
 
-.navbar{
+.navbar {
     display: flex;
     list-style: none;
 }
 
-.navbar a{
+.navbar a {
     text-decoration: none;
-    color:black;
+    color: black;
     padding: 10px;
     justify-content: center;
-    
 }
 
 
-.headerimg{
+.headerimg {
     height: 60px;
     width: 60px;
     border-radius: 10px;
 }
 
-.main{
-    display:flex;
-    flex-direction:column;
-    flex-basis:1;
+/* The following sections set the styling for the About Me, Projects, and Links sections of the page */
+.main {
+    display: flex;
+    flex-direction: column;
+    flex-basis: 1;
 }
 
-.mainbox1{
+.mainbox1 {
     padding: 10px;
     height: auto;
     width: stretch;
     display: flex;
-    flex-direction:row;
+    flex-direction: row;
 }
 
-.mainbox1 p{
-    padding-left:2%;
-    padding-right:5%;
+.mainbox1 p {
+    padding-left: 2%;
+    padding-right: 5%;
     max-width: 80%;
 }
 
 .mainbox2 {
     display: flex;
     flex-wrap: wrap;
-    
-  }
-  
+}
+
 .mainbox2 h2 {
     width: 100%;
     padding: 10px;
 }
 
-.application1{
+.application1 {
     flex: 1 1 100%;
     padding: 20px;
     text-decoration: none;
 }
 
-.application{
+.application {
     flex: 1 1 40%;
-    padding: 20px; 
+    padding: 20px;
     text-decoration: none;
-   }
-    
+}
 
-  .project {
-    /* flex: 1 0 200px;  */
+
+.project {
     justify-content: center;
-    display: flex;  
+    display: flex;
     flex-direction: column;
-  }
-  
-  .project img {
+}
+
+.project img {
     max-width: 95%;
     height: auto;
-    align-self: center;    
-  }
+    align-self: center;
+}
 
-  .project p {
+.project p {
     width: 100%;
     text-align: center;
     color: black;
-  }
+}
 
-  .mainbox3{
-  background-color: #D47B21;
-  display: flex;
-  align-items: center;
-  }
-  
+/* Footer styling */
+.mainbox3 {
+    background-color: #D47B21;
+    display: flex;
+    align-items: center;
+}
+
+/* Adds responsiveness for smaller screens */
 @media screen and (max-width: 768px) {
     .mainbox2 {
         flex-direction: column;
     }
-    
+
     .application .project img {
         max-width: 60%;
 
-      }
+    }
 }
